@@ -1,7 +1,7 @@
 # Crostini日本語化用のメモ
 
 ## フォントのインスコ (全部コピペでおｋ)
-sudo apt install task-japanese locales-all fonts-noto-cjk -y && sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja" && source /etc/default/locale
+sudo apt update && sudo apt install task-japanese locales-all fonts-noto-cjk -y && sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja" && source /etc/default/locale
 
 ## Fcitx-Mozcのインスコ
 sudo apt install fcitx-mozc -y
